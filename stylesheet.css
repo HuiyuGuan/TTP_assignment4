@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+
+.title{
+    text-align: center;
+    background-color: blue;
+}
+
+.question-1{
+    text-align: center;
+}
+
+.formDiv{
+    text-align: center;
+}
