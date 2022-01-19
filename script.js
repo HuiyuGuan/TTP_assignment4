@@ -34,3 +34,12 @@ function checkPassword(){
         document.getElementById("passBox").value === "12345678"? loginStatus.innerHTML = "Verified!":alert("Incorrect password.");
     }
 }
+
+
+function calcSphere(){
+    let boxVal = document.getElementById("sphereInputBox").value;
+
+    let sphVolume = ((4/3)*(3.14159)*((boxVal)*(boxVal)*(boxVal)))
+    console.log(sphVolume)
+    document.getElementById("sphereResult").innerHTML = sphVolume;
+}
